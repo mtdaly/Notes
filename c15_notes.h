@@ -4,6 +4,8 @@
 
 ///// June 13th - Stacks, Queues, Recursion, Complexity Analysis /////
 
+//<editor-fold desc="June 13" >
+
 class stack {
 public:
     void    push   (int aData) {mLL.addFront(aData);}
@@ -119,9 +121,11 @@ reverseLL() {
     rest->next = first; // Recomposition step
     first->next == nullprt;
 }
+//</editor-fold>
 
 ///// June 20th - Complexity Analysis File I/O, Templates /////
 
+//<editor-fold desc="June 20">
 /// Table of Big-oh sets
 /*
  * Function:        Common Name:
@@ -287,5 +291,6 @@ int main ()
 // To define foo() elsewhere...
 template <typename T>
 void A <T, T2> :: foo() {}
+//</editor-fold>
 
 
